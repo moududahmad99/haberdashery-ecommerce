@@ -9,6 +9,8 @@
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background: #1e283210;
+
 }
 
 li {
@@ -33,5 +35,4 @@ p {
     line-height: 0.8;
     margin: 0;
 }
-
 /* Common Css End */

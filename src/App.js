@@ -1,9 +1,10 @@
 import './App.css';
+import Navbar from './components/Navbar/index';
 
 function App() {
     return (
         <>
-            <h3>Haberdashery Ecommerce</h3>
+            <Navbar />
         </>
     );
 }

@@ -1,0 +1,8 @@
+#brand-wrapper {
+    margin: 40px 0;
+}
+
+.brand-inner {
+    display: flex;
+    justify-content: space-between;
+}

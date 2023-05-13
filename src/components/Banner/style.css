@@ -1,0 +1,63 @@
+#banner-wrapper {
+  background: rgba(30, 40, 50, 0.05);
+  height: 77.6vh;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner-innerRight {
+  position: absolute;
+  content: "";
+  right: 0px;
+  bottom: 40px;
+}
+
+.banner-innerLeft {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 10px;
+}
+
+.banner-inner h3 {
+  font-family: "Roboto";
+  font-size: 74px;
+  font-weight: 400;
+  line-height: 55px;
+  margin-top: 170px;
+}
+
+.banner-inner h5 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px;
+  text-transform: capitalize;
+  font-family: "Roboto";
+  padding-right: 40px;
+  margin: 40px 0;
+}
+
+.banner-innerButton {
+  width: 140px;
+  text-align: center;
+  line-height: 34px;
+  background: #1e2832;
+  padding: 7px 0;
+  cursor: pointer;
+}
+
+.banner-innerButton i {
+  margin-right: 7px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.banner-innerButton a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+.banner-innerButton a:hover {
+  color: #ffffff;
+}

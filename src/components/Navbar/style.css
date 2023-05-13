@@ -1,7 +1,6 @@
 .navbar-wrapper {
     padding: 40px 0;
-    background: #8c9dad15;
-    height: 100vh;
+    background: rgba(30, 40, 50, 0.05);
 }
 
 .navbar-inner i {

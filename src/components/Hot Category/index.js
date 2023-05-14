@@ -25,10 +25,10 @@ const HotCategory = () => {
                             <div className="hotCategoryRight">
                                 <div className="hotCategoryRightInner">
                                     <picture>
-                                        <img src="./assets/hotCategoryRightInner1.png" alt="" />
+                                        <img src="./assets/hotCategoryRightInner1.png" alt="hotCategory" />
                                     </picture>
                                     <picture>
-                                        <img src="./assets/hotCategoryRightInner3.png" alt="" />
+                                        <img src="./assets/hotCategoryRightInner3.png" alt="hotCategory" />
                                     </picture>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ const HotCategory = () => {
                                         <img src="./assets/hotCategoryRightInner3.png" alt="hotCategory" />
                                     </picture>
                                     <picture>
-                                        <img src="./assets/hotCategoryRightInner2.png" alt="hotCategory" />
+                                        <img src="./assets/hotCategoryRightInner1.png" alt="hotCategory" />
                                     </picture>
                                 </div>
                             </div>

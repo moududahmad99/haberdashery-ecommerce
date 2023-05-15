@@ -1,0 +1,49 @@
+.brandBanner-wrapper {
+    background: #000000;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    position: relative;
+}
+
+.zara-absolute {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.brandBanner-innerLeft img {
+    width: 100%;
+    height: 400px;
+}
+
+.brandBanner-innerRight img {
+    margin-top: 40px;
+}
+
+.brandBanner-innerRight h3 {
+    font-size: 22px;
+    color: aliceblue;
+    margin: 25px 0 44px 0;
+    font-family: 'Roboto';
+    letter-spacing: 1.18px;
+    line-height: 40px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.brandBanner-innerRight a {
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;
+    background: aliceblue;
+    text-decoration: none;
+
+    color: #1E2832;
+
+}

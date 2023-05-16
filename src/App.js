@@ -6,6 +6,7 @@ import BrandBanner from './components/Brand Banner';
 import HotCategory from './components/Hot Category';
 import Navbar from './components/Navbar/index';
 import Products from './components/Products';
+import SocialMedia from './components/Social Media';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Products/>
             <BrandBanner />
             <BestSeller />
+            <SocialMedia />
         </>
     );
 }

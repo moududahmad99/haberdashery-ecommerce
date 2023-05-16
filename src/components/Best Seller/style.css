@@ -1,0 +1,136 @@
+.bestSeller-heading h3 {
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1.12px;
+    line-height: 40px;
+}
+
+.products-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-newsletter {
+  margin-top: 40px;
+}
+
+.products-newsletter h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-family: "Roboto";
+  color: #000000;
+}
+
+.products-navInner ul {
+  display: flex;
+  padding: 0;
+}
+
+.products-navInner ul li a {
+  padding-right: 25px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat";
+}
+
+.products-navInner ul li a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.products-navInner {
+  margin: 40px 0;
+}
+
+.products-navInnerButton {
+  padding: 5px 0;
+  background: #1e2832;
+}
+
+
+.products-navInnerButton a {
+  text-decoration: none;
+  color: #d6d6d6;
+  margin: 0;
+  align-items: center;
+  font-family: "Open Sans";
+  margin: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.products-navInnerButton a:hover {
+  color: #d6d6d6;
+}
+
+.productsCard-inner {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.productsCard-inner h3 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Montserrat";
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.productsCard-inner img {
+  width: 100%;
+}
+
+.productsCard-contentInner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productsCard-contentInner h4 {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #00000050;
+}
+
+.productsCard-contentInner p {
+  font-size: 13px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #ff6f61;
+}
+
+.productsCard-contentInner p span {
+  text-decoration: line-through;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.ribbonSale::after {
+  position: absolute;
+  content: "Sale";
+  font-family: "Montserrat";
+  font-size: 13px;
+  color: #ffffff;
+  background: #1e2832;
+  left: 0;
+  top: 40px;
+  width: 70px;
+  text-transform: uppercase;
+  padding: 6px 0 4px 0;
+  text-align: center;
+  z-index: 99;
+}
+
+.ribbonHot::after {
+  position: absolute;
+  content: "Hot";
+  font-family: "Montserrat";
+  font-size: 13px;
+  color: #ffffff;
+  background: #ff6f61;
+  left: 0;
+  top: 40px;
+  width: 70px;
+  text-transform: uppercase;
+  padding: 6px 0 4px 0;
+  text-align: center;
+  z-index: 99;
+}

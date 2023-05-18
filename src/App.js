@@ -1,12 +1,13 @@
 import './App.css';
-import Banner from './components/Banner/index';
-import BestSeller from './components/Best Seller';
-import Brand from './components/Brand';
-import BrandBanner from './components/Brand Banner';
-import HotCategory from './components/Hot Category';
 import Navbar from './components/Navbar/index';
+import Banner from './components/Banner/index';
+import Brand from './components/Brand';
+import HotCategory from './components/Hot Category';
 import Products from './components/Products';
+import BrandBanner from './components/Brand Banner';
+import BestSeller from './components/Best Seller';
 import SocialMedia from './components/Social Media';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <BrandBanner />
             <BestSeller />
             <SocialMedia />
+            <Footer/>
         </>
     );
 }

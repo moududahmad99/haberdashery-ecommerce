@@ -1,0 +1,122 @@
+#footer-wrapper {
+  margin: 40px 0;
+  display: flex;
+}
+
+.topFooter-inner h3 {
+  font-size: 17px;
+  color: #00000090;
+  line-height: 24px;
+  text-align: justify;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  padding-right: 35px;
+}
+
+.topFooterInner-logo {
+  display: flex;
+  align-items: center;
+}
+
+.topFooterInner-logo h4 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+.topFooter-social i {
+  margin-right: 26px;
+  font-size: 22px;
+  color: #000000;
+}
+
+.topFooter-Catalog h5 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.topFooter-Catalog i {
+  font-weight: 400;
+  font-size: 400;
+  line-height: 30px !important;
+  font-style: normal;
+  color: #00000099;
+  display: flex;
+}
+
+.topFooter-about h5 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.topFooter-about i {
+  font-weight: 400;
+  font-size: 400;
+  line-height: 30px !important;
+  font-style: normal;
+  color: #00000099;
+  display: flex;
+}
+
+.topFooter-services h5 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.topFooter-services i {
+  font-weight: 400;
+  font-size: 400;
+  line-height: 30px !important;
+  font-style: normal;
+  color: #00000099;
+  display: flex;
+}
+
+.bottomFooter-wrapper {
+  background: #1e2832;
+  padding: 18px 0;
+}
+
+.bottomFooter-inner {
+  display: flex;
+  align-items: center;
+}
+
+.bottomFooter-inner i {
+  color: #ffffff99;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+.bottomFooter-inner h4 {
+  font-size: 16px;
+  font-family: "Open Sans";
+  margin: 0;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.bottomFooter-button a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 4px;
+}
+
+.bottomFooter-button a:hover {
+  color: #ffffff;
+}
+
+.bottomFooter-button a i {
+  color: #ffffff;
+}
